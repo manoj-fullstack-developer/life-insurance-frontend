@@ -18,7 +18,7 @@ const RecommendationForm = ({
   return (
     <Form layout="vertical" name="insuranceForm" onFinish={handleOnFinish}>
       <Row gutter={25}>
-        <Col span={12}>
+        <Col sm={24} md={12}>
           <label className={styles.label}>Age</label>
           <Form.Item
             name="age"
@@ -41,7 +41,7 @@ const RecommendationForm = ({
             />
           </Form.Item>
         </Col>
-        <Col span={12}>
+        <Col sm={12} md={12}>
           <label className={styles.label}>Income</label>
           <Form.Item
             name="income"
@@ -64,7 +64,7 @@ const RecommendationForm = ({
             />
           </Form.Item>
         </Col>
-        <Col span={12}>
+        <Col sm={12} md={12}>
           <label className={styles.label}>Dependents</label>
           <Form.Item
             name="dependents"
@@ -87,7 +87,7 @@ const RecommendationForm = ({
             />
           </Form.Item>
         </Col>
-        <Col span={12}>
+        <Col sm={12} md={12}>
           <label className={styles.label}>Risk of Tolerance</label>
 
           <Form.Item
@@ -110,7 +110,7 @@ const RecommendationForm = ({
         <br />
         <Col
           style={{ display: "flex", justifyContent: "end", gap: 10 }}
-          span={24}
+          md={24}
         >
           <Form.Item>
             <Button
