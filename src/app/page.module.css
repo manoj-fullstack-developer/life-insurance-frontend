@@ -1,0 +1,21 @@
+.title {
+  margin-bottom: 2rem;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40;
+  gap: 10;
+}
+
+@media (max-width: 521px) {
+  .title {
+    font-size: 1.3rem !important;
+    text-align: center;
+  }
+
+  .headerContainer {
+    flex-direction: column;
+  }
+}

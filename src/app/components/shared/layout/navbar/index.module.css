@@ -1,0 +1,36 @@
+.navbar {
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: white;
+  padding: 14px 0px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.brand {
+  font-size: 20px;
+  font-weight: 550;
+  letter-spacing: 1px;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 521px) {
+  .brand {
+    font-size: 17px;
+  }
+}
+
+.link {
+  cursor: pointer;
+  transition: color 0.3s ease;
+  font-weight: 500;
+}
+
+.link:hover {
+  color: #ffdd57; /* premium gold hover */
+}

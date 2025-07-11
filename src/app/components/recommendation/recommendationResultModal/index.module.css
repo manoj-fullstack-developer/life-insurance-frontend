@@ -1,0 +1,17 @@
+.modal {
+  text-align: center;
+}
+
+.content {
+  padding: 20px;
+}
+
+.recommendation {
+  font-size: 16px;
+  color: #1890ff; /* Ant Design primary color */
+  font-weight: 600;
+}
+
+.explanation {
+  color: #555;
+}
