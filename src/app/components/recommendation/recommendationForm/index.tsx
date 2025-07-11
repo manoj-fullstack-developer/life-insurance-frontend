@@ -107,10 +107,7 @@ const RecommendationForm = ({
           </Form.Item>
         </Col>
         <br />
-        <Col
-          style={{ display: "flex", justifyContent: "end", gap: 10 }}
-          span={24}
-        >
+        <Col className={styles.buttonContainer} span={24}>
           <Form.Item>
             <Button
               disabled={loading}
