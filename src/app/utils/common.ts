@@ -1,8 +1,11 @@
+import { RuleObject } from "antd/es/form";
+import { StoreValue } from "antd/es/form/interface";
+
 const numberValidator = (
   fieldName: string,
   options: { min?: number; allowZero?: boolean }
 ) => {
-  return (_: any, value: any) => {
+  return (_: RuleObject, value: StoreValue) => {
     if (!value) {
       return Promise.resolve();
     }
