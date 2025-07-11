@@ -109,7 +109,7 @@ const RecommendationForm = ({
         <br />
         <Col
           style={{ display: "flex", justifyContent: "end", gap: 10 }}
-          md={24}
+          span={24}
         >
           <Form.Item>
             <Button
