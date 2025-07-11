@@ -18,6 +18,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;

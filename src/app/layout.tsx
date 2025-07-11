@@ -46,7 +46,13 @@ export default function RootLayout({
               },
             }}
           >
-            {!isLoaded ? <Spin /> : <Layout>{children}</Layout>}
+            {!isLoaded ? (
+              <div className="center">
+                <Spin />
+              </div>
+            ) : (
+              <Layout>{children}</Layout>
+            )}
           </ConfigProvider>
         </App>
       </body>
